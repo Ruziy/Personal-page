@@ -1,0 +1,132 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+.nav{
+    padding: 20px 0;
+    border-bottom: 1px solid #26292D;
+    background-color: $black;
+    color: #FFF;
+    letter-spacing: normal;
+}
+
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+.logo{
+    color: #FFF;
+    font-size: 24px;
+    font-family: $Poppins;
+}
+.logo strong{
+    font-weight: 700;
+}
+.nav-list {
+
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: $Poppins;
+
+		// .nav-list__link
+
+		&__link {
+            color: #FFF;
+            transition: opacity .2s ease-in;
+            &:hover{
+                opacity: 0.8;
+            }
+		}
+        &__link--active{
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                display: block;
+                height: 2px;
+                width: 100%;
+                background-color: $main-color;
+            }
+        }
+}
+
+
+.header {
+    background-color: $black;
+    background-image: url('./../images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+    color: $white;
+    min-height: 695px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    // .header_text
+
+    &_text {
+        line-height: 1.333;
+        font-size: 18px;
+        margin-bottom:40px;
+        & p+p{
+            margin-top: 0.5em;
+        }
+    }
+
+    // .header__wrapper
+
+    &__wrapper {
+        max-width: 660px;
+        padding: 0 15px;
+    }
+
+    // .header__title
+
+    &__title {
+        font-size: 40px;
+        font-weight: 700px;
+        line-height:1.4;
+        margin-bottom: 20px;
+        & strong{
+            font-size: 60px;
+            font-weight: 700;
+        }
+        & em{
+            font-style: normal;
+            color: $main-color;
+        }
+    }
+}
+
+.btn {
+    display: inline-block;
+    height: 48px;
+    padding: 12px 28px;
+    border-radius: 5px;
+    background-color: $main-color;
+    color: $white;
+    letter-spacing: 0.15px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: opacity .2s ease-in;
+    &:hover{
+        opacity: 0.8;
+    }
+    &:active{
+        position: relative;
+        top: 1px;
+    }
+}
+
