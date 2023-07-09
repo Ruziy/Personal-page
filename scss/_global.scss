@@ -1,0 +1,45 @@
+html,body{
+    font-family: $Sans;
+    letter-spacing: -0.5px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    min-height: 100vh;
+    
+}
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+    
+}
+body::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+body::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+  
+body::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border: 5px solid transparent;
+    background-clip: content-box;
+    background-color: var(--main-color);
+}
+// @keyframes animate_pulse {
+// 	0% {
+//         // rgba(54, 60, 239, 0.8)
+// 		box-shadow: 0 0 0 0 var(--main-color);
+//         opacity: 0.8;
+// 	}
+// 	70% {
+//         // rgba(64, 70, 238, 0)
+// 		box-shadow: 0 0 0 30px var(--main-color);
+// 	}
+// 	100% {
+// 		box-shadow: 0 0 0 0 var(--main-color);
+//         // rgba(92, 98, 236, 0)
+// 	}
+// }

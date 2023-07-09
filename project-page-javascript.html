@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer portfolio</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a class="logo" href="./index.html"><strong>Freelancer</strong> portfolio</a>
+                <button class="dark-mode-btn">
+                    <img src="./images/icons/Sun.svg" alt="" class="dark-mode-btn__icon">
+                    <img src="./images/icons/Moon.svg" alt="" class="dark-mode-btn__icon">
+                </button>
+                <div class="setting__block">
+                    <button class="setting__btn">
+                        <img src="./images/icons/settings.svg" alt="" class="setting__btn-icon">
+                    </button>
+                    <div class="setting__choose">
+                        <p class="setting__choose-text">Theme:</p>
+                        <div class="setting__chooseColorBlock">
+                            <div class="setting__chooseColor setting__chooseColor-1">
+                                <label>Choose a color: <br>
+                                    <input type="color">
+                                    <!-- value="#5c62ec" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-list__item">
+                        <a class="nav-list__link nav-list__link--active" href="./index.html">Projects</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="./skills.html">Skills</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="./about-me.html">About me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="section">
+        <div class="container">
+            <div class="project-details">
+                <h1 class="title-1">
+                    JavaScript
+                </h1>
+                <p class="project-skills">My main skills</p>
+                <ul class="project-items">
+                    <li class="project-item">
+                        The concept of OOP
+                    </li>
+                    <li class="project-item">The concept of DOM</li>
+                    <li class="project-item">
+                        Working with data (arrays, functions, etc..)
+                    </li>
+                    <li class="project-item">
+                        Creating promises
+                    </li>
+                    <li class="project-item">
+                        Working with JSON
+                    </li>
+                </ul>
+                <!-- Основной блок слайдера -->
+                <div class="slider">
+                    <h3 class="slider__title">
+                        My solutions from Leetcode <img style="width: 20px; height: 20px; margin-top: 2px;" src="images/icons/leetcode-logo.svg" alt=""> (JS-30) <br>
+                    </h3>
+
+                    <div class="slider__item">
+                        <h3 class="slider__title">
+                            <span class="slider__title-js">Closures</span> 
+                        </h3>
+                        <div class="slider__inner">
+                            <ul class="slider__items">
+                                <li>
+                                    <a class="slider__link-js" href="https://leetcode.com/problems/create-hello-world-function/?utm_campaign=PostD1&utm_medium=Post&utm_source=Post&gio_link_id=QPDw0kJR" class="">
+                                        Create Hello World Function(Src)  <span>=></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="slider__link-js" href="https://leetcode.com/problems/counter/?utm_campaign=PostD2&utm_medium=Post&utm_source=Post&gio_link_id=xogkVqBo" class="">
+                                        Counter(Src)<span>=></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="slider__link-js" href="https://leetcode.com/problems/counter-ii/?utm_campaign=PostD3&utm_medium=Post&utm_source=Post&gio_link_id=xRxVYOXo" class="">
+                                        Counter II(Src)<span>=></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="slider__items">
+                                <li>
+                                    <button class="slider__btn-1">
+                                        <a href="#!" class="slider__solution slider__solution-1">
+                                            Solution <span>first task</span>
+                                        </a>
+                                    </button>
+                                    <div class="solution__img solution__img-1" style="background-image: url(../images/mH_xWckUmws.jpg);">
+                                    </div>
+                                </li>
+                                <li>
+                                    <button class="slider__btn-2">
+                                        <a href="#!" class="slider__solution slider__solution-2">
+                                            Solution <span>second task</span>
+                                        </a>
+                                    </button>
+                                    <div class="solution__img solution__img-2" style="background-image: url(../images/W4zqGdIDyDg.jpg);">
+                                    </div>
+                                </li>
+                                <li>
+                                    <button class="slider__btn-3">
+                                        <a href="#!" class="slider__solution slider__solution-3">
+                                            Solution <span>third task</span>
+                                        </a>
+                                    </button>
+                                    <div class="solution__img solution__img-3" style="background-image: url(../images/OFLP5Z7vEFs.jpg);">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="slider__item">
+                        <h3 class="slider__title">
+                            <span class="slider__title-js">Basic Array Transforms</span>
+                        </h3>
+                        <div class="slider__inner">
+                            <ul class="slider__items">
+                                <li>
+                                    <a class="slider__link-js"  href="https://leetcode.com/problems/apply-transform-over-each-element-in-array/?utm_campaign=PostD4&utm_medium=Post&utm_source=Post&gio_link_id=noqbNOv9" class="">
+                                        Apply Transform Over Each Element in Array(Src) <span>=></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="slider__link-js"  href="https://leetcode.com/problems/filter-elements-from-array/?utm_campaign=PostD5&utm_medium=Post&utm_source=Post&gio_link_id=a9a5VZr9" class="">
+                                        Filter Elements from Array(Src)<span>=></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="slider__link-js"  href="https://leetcode.com/problems/array-reduce-transformation/?utm_campaign=PostD6&utm_medium=Post&utm_source=Post&gio_link_id=nPN45jD9" class="">
+                                        Array Reduce Transformation(Src)<span>=></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="slider__items">
+                                <li>
+                                    <button class="slider__btn-6">
+                                        <a href="#!" class="slider__solution slider__solution-6">
+                                            Solution <span>first task</span>
+                                        </a>
+                                    </button>
+                                    <div class="solution__img solution__img-6" style="background-image: url(../images/hzyh65JB9wM.jpg); height: 80px;">
+                                    </div>
+                                </li>
+                                <li>
+                                    <button class="slider__btn-7">
+                                        <a href="#!" class="slider__solution slider__solution-7">
+                                            Solution <span>second task</span>
+                                        </a>
+                                    </button>
+                                    <div class="solution__img solution__img-7" style="background-image: url(../images/09EoIK0PGB0.jpg); height: 80px;">
+                                    </div>
+                                </li>
+                                <li>
+                                    <button class="slider__btn-8">
+                                        <a href="#!" class="slider__solution slider__solution-8">
+                                            Solution <span>third task</span>
+                                        </a>
+                                    </button>
+                                    <div class="solution__img solution__img-8" style="background-image: url(../images/pigZSJzeq3k.jpg); background-size: cover;height: 150px;">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <h3 class="slider__title">
+                            <span class="slider__title-js">Function input and Output</span>
+                        </h3>
+                        <div class="slider__inner">
+                            <ul class="slider__items">
+                                <li>
+                                    <a class="slider__link-js"  href="https://leetcode.com/problems/function-composition/?utm_campaign=PostD7&utm_medium=Post&utm_source=Post&gio_link_id=4PY7wZM9" class="">
+                                        Function Composition(Src) <span>=></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="slider__link-js"  href="https://leetcode.com/problems/allow-one-function-call/?utm_campaign=PostD8&utm_medium=Post&utm_source=Post&gio_link_id=a9By01Oo" class="">
+                                        Allow One Function Call(Src)<span>=></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="slider__link-js"  href="https://leetcode.com/problems/memoize/?utm_campaign=PostD9&utm_medium=Post&utm_source=Post&gio_link_id=nRbADVd9" class="">
+                                        Memoize(Src)<span>=></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="slider__items">
+                                <li>
+                                    <button class="slider__btn-6">
+                                        <a href="#!" class="slider__solution slider__solution-6">
+                                            Solution <span>first task</span>
+                                        </a>
+                                    </button>
+                                    <div class="solution__img solution__img-6" style="background-image: url(../images/hzyh65JB9wM.jpg); height: 80px;">
+                                    </div>
+                                </li>
+                                <li>
+                                    <button class="slider__btn-7">
+                                        <a href="#!" class="slider__solution slider__solution-7">
+                                            Solution <span>second task</span>
+                                        </a>
+                                    </button>
+                                    <div class="solution__img solution__img-7" style="background-image: url(../images/09EoIK0PGB0.jpg); height: 80px;">
+                                    </div>
+                                </li>
+                                <li>
+                                    <button class="slider__btn-8">
+                                        <a href="#!" class="slider__solution slider__solution-8">
+                                            Solution <span>third task</span>
+                                        </a>
+                                    </button>
+                                    <div class="solution__img solution__img-8" style="background-image: url(../images/pigZSJzeq3k.jpg); background-size: cover;height: 150px;">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="slider__item">
+                        <h3 class="slider__title">
+                            <span class="slider__title-js">Promise</span>
+                        </h3>
+                        <div class="slider__inner">
+                            <ul class="slider__items">
+                                <li>
+                                    <a class="slider__link-js"  href="https://leetcode.com/problems/sleep/?utm_campaign=PostD11&utm_medium=Post&utm_source=Post&gio_link_id=5Rp2Wmzo" class="">
+                                        Sleep(Src) <span>=></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="slider__link-js"  href="https://leetcode.com/problems/promise-time-limit/?utm_campaign=PostD12&utm_medium=Post&utm_source=Post&gio_link_id=nombN5Z9" class="">
+                                        Promise Time Limit(Src)<span>=></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="slider__items">
+                                <li>
+                                    <button class="slider__btn-6">
+                                        <a href="#!" class="slider__solution slider__solution-6">
+                                            Solution <span>first task</span>
+                                        </a>
+                                    </button>
+                                    <div class="solution__img solution__img-6" style="background-image: url(../images/hzyh65JB9wM.jpg); height: 80px;">
+                                    </div>
+                                </li>
+                                <li>
+                                    <button class="slider__btn-7">
+                                        <a href="#!" class="slider__solution slider__solution-7">
+                                            Solution <span>second task</span>
+                                        </a>
+                                    </button>
+                                    <div class="solution__img solution__img-7" style="background-image: url(../images/09EoIK0PGB0.jpg); height: 80px;">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Кнопки-стрелочки -->
+                    <a class="previous" onclick="previousSlide()">&#10094;</a>
+                    <a class="next" onclick="nextSlide()">&#10095;</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item">
+                        <a href="https://vk.com/ruziy">
+                            <img src="./images/icons/vk.svg" alt="vk-link">
+                        </a>
+                    </li>
+                    <li class="social__item dn">
+                        <a href="#!">
+                            <img src="./images/icons/instagram.svg" alt="instagram-link">
+                        </a>
+                    </li>
+                    <li class="social__item dn">
+                        <a href="#!">
+                            <img src="./images/icons/twitter.svg" alt="twitter-link">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://github.com/Ruziy">
+                            <img src="./images/icons/gitHub.svg" alt="gitHub-link">
+                        </a>
+                    </li>
+                    <li class="social__item dn">
+                        <a href="#!">
+                            <img src="./images/icons/linkedIn.svg" alt="linkedIn-link">
+                        </a>
+                    </li>
+                </ul>
+                <div class="copyright">
+                    <p>© 2023 frontend-dev.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

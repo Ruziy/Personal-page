@@ -1,0 +1,131 @@
+@media (max-width:769px){
+    .about-me{
+        &__inner{
+            display: block;
+        }
+        &__info{
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    #circle{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .content-list{
+        &__inner{
+            display: block;
+        }
+        &__img{
+            margin-right:  unset;
+            margin-bottom: 20px;
+        }
+    }
+}
+@media (max-width:767px){
+    .projects{
+        opacity: unset;
+        transform: unset;
+    }
+}
+@media (max-width:620px){
+    .header{
+        min-height: unset;
+        &__title{
+            font-size: 30px;
+            & strong{
+                font-size: 40px;
+            }
+        }
+    }
+    .nav{
+        &-row{
+            justify-content: space-between;
+        }
+    }
+    .section{
+        padding: 40px 0;
+    }
+    .title-1,.subtitle-1{
+        font-size: 40px;
+        margin-bottom:30px;
+    }
+    .project{
+        &__title{
+            font-size: 22px;
+        }
+    }
+    .footer{
+        padding: 40px 0 30px;
+        &__wrapper{
+            row-gap: 20px;
+        }
+    }
+    .social{
+        &__item{
+            width:28px;
+        }
+        column-gap: 20px;
+    }
+    .title-2{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .content-list{
+        row-gap: 20px;
+        &__item{
+            font-size: 16px;
+        }
+    }
+    .project-details__desc{
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .dark-mode-btn{
+        order: 0;
+    }
+}
+@media (max-width:426px){
+    .setting{
+        &__block{
+            margin-right: 25px;
+        }
+    }
+    .project{
+        &__img{
+            height: unset;
+        }
+    }
+    #circle{
+        display: none;
+    }
+    .slider{
+        &__link span{
+            display: none;
+        }
+        &__solution span{
+            display: unset;
+        }
+    }
+}
+@media (max-width:374px){
+    .nav{
+        &-list{
+            margin: 0 auto;
+            order: 10;
+            text-align: center;
+        }   
+    }
+    .dark-mode-btn{
+        margin: 0 auto;
+    }
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+    .setting{
+        &__block{
+            margin-right: auto;
+        }
+    }
+}
